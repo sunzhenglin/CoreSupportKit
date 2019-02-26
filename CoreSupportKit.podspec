@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreSupportKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of CoreSupportKit.'
 
 # This description is used to generate tags and improve search results.
@@ -87,7 +87,12 @@ TODO: Add long description of the pod here.
      ss.source_files = 'CoreSupportKit/Classes/YBPopupMenu/**/*.{h,m}'
      
    end
-   
+   s.subspec 'MyUICreate' do |ss|
+     # '仿微信+菜单'
+     ss.public_header_files = 'CoreSupportKit/Classes/MyUICreate/**/*.h'
+     ss.source_files = 'CoreSupportKit/Classes/MyUICreate/**/*.{h,m}'
+     
+   end
    
    
    
