@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreSupportKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of CoreSupportKit.'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
    end
    s.subspec 'JJImagePicker' do |ss|
      #'照片选择器'
-   ss.public_header_files = 'CoreSupportKit/Classes/JJImagePicker/JJImagePicker/**/*.h'
+   ss.public_header_files = 'CoreSupportKit/Classes/JJImagePicker/JJImagePicker/**/*.h','CoreSupportKit/Classes/JJImagePicker/TOCropViewController/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/JJImagePicker/**/*.{h,m}'
      
    end
