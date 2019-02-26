@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreSupportKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of CoreSupportKit.'
 
 # This description is used to generate tags and improve search results.
@@ -38,43 +38,43 @@ TODO: Add long description of the pod here.
 #   }
    s.subspec 'CWCarousel' do |ss|
      #'轮播图'
-     ss.public_header_files = 'CoreSupportKit/Classes/CWCarousel/CWCarouselHeader.h'
+   ss.public_header_files = 'CoreSupportKit/Classes/CWCarousel/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/CWCarousel/**/*.{h,m}'
      
    end
    s.subspec 'JJImagePicker' do |ss|
      #'照片选择器'
-     ss.public_header_files = 'CoreSupportKit/Classes/JJImagePicker/JJImagePicker/JJImagePicker.h'
+   ss.public_header_files = 'CoreSupportKit/Classes/JJImagePicker/JJImagePicker/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/JJImagePicker/**/*.{h,m}'
      
    end
    s.subspec 'LBXScan' do |ss|
      # '二维码'
-     ss.public_header_files = 'CoreSupportKit/Classes/LBXScan/LBXScanViewController.h'
+     ss.public_header_files = 'CoreSupportKit/Classes/LBXScan/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/LBXScan/**/*.{h,m}'
      ss.dependency 'LBXScan', '~> 2.3'
    end
    s.subspec 'TXImageCompressor' do |ss|
      # '图片压缩'
-     ss.public_header_files = 'CoreSupportKit/Classes/TXImageCompressor/TXImageCompressor.h'
+     ss.public_header_files = 'CoreSupportKit/Classes/TXImageCompressor/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/TXImageCompressor/**/*.{h,m}'
      
    end
    s.subspec 'TXPassWordView' do |ss|
      # '输入框'
-     ss.public_header_files = 'CoreSupportKit/Classes/TXPassWordView/TXPassWordView.h'
+   ss.public_header_files = 'CoreSupportKit/Classes/TXPassWordView/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/TXPassWordView/**/*.{h,m}'
      
    end
    s.subspec 'TXUseRuleView' do |ss|
      # '使用协议提示'
-     ss.public_header_files = 'CoreSupportKit/Classes/TXUseRuleView/TXUseRuleView.h'
+    ss.public_header_files = 'CoreSupportKit/Classes/TXUseRuleView/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/TXUseRuleView/**/*.{h,m}'
      
    end
    s.subspec 'WSDaePickerView' do |ss|
      # '时间选择器'
-     ss.public_header_files = 'CoreSupportKit/Classes/WSDaePickerView/WSDatePickerView.h'
+     ss.public_header_files = 'CoreSupportKit/Classes/WSDaePickerView/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/WSDaePickerView/**/*.{h,m}'
         ss.resource_bundles = {
           'WSDaePickerView' => ['CoreSupportKit/Classes/WSDaePickerView/**/*.{png,xib}']
@@ -83,7 +83,7 @@ TODO: Add long description of the pod here.
 
    s.subspec 'YBPopupMenu' do |ss|
      # '仿微信+菜单'
-     ss.public_header_files = 'CoreSupportKit/Classes/YBPopupMenu/YBPopupMenu.h'
+     ss.public_header_files = 'CoreSupportKit/Classes/YBPopupMenu/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/YBPopupMenu/**/*.{h,m}'
      
    end
