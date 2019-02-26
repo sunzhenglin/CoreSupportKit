@@ -1,0 +1,6 @@
+framework module Pods_CoreSupportKit_Example {
+  umbrella header "Pods-CoreSupportKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

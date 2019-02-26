@@ -1,0 +1,6 @@
+framework module CoreSupportKit {
+  umbrella header "CoreSupportKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

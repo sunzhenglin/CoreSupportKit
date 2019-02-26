@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CoreSupportKit_Example' do
+  pod 'CoreSupportKit', :path => '../'
+
+  target 'CoreSupportKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
