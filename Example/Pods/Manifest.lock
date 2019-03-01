@@ -1,22 +1,24 @@
 PODS:
-  - CoreSupportKit (0.1.0):
-    - CoreSupportKit/CWCarousel (= 0.1.0)
-    - CoreSupportKit/JJImagePicker (= 0.1.0)
-    - CoreSupportKit/LBXScan (= 0.1.0)
-    - CoreSupportKit/TXImageCompressor (= 0.1.0)
-    - CoreSupportKit/TXPassWordView (= 0.1.0)
-    - CoreSupportKit/TXUseRuleView (= 0.1.0)
-    - CoreSupportKit/WSDaePickerView (= 0.1.0)
-    - CoreSupportKit/YBPopupMenu (= 0.1.0)
-  - CoreSupportKit/CWCarousel (0.1.0)
-  - CoreSupportKit/JJImagePicker (0.1.0)
-  - CoreSupportKit/LBXScan (0.1.0):
+  - CoreSupportKit (0.1.4):
+    - CoreSupportKit/CWCarousel (= 0.1.4)
+    - CoreSupportKit/JJImagePicker (= 0.1.4)
+    - CoreSupportKit/LBXScan (= 0.1.4)
+    - CoreSupportKit/MyUICreate (= 0.1.4)
+    - CoreSupportKit/TXImageCompressor (= 0.1.4)
+    - CoreSupportKit/TXPassWordView (= 0.1.4)
+    - CoreSupportKit/TXUseRuleView (= 0.1.4)
+    - CoreSupportKit/WSDaePickerView (= 0.1.4)
+    - CoreSupportKit/YBPopupMenu (= 0.1.4)
+  - CoreSupportKit/CWCarousel (0.1.4)
+  - CoreSupportKit/JJImagePicker (0.1.4)
+  - CoreSupportKit/LBXScan (0.1.4):
     - LBXScan (~> 2.3)
-  - CoreSupportKit/TXImageCompressor (0.1.0)
-  - CoreSupportKit/TXPassWordView (0.1.0)
-  - CoreSupportKit/TXUseRuleView (0.1.0)
-  - CoreSupportKit/WSDaePickerView (0.1.0)
-  - CoreSupportKit/YBPopupMenu (0.1.0)
+  - CoreSupportKit/MyUICreate (0.1.4)
+  - CoreSupportKit/TXImageCompressor (0.1.4)
+  - CoreSupportKit/TXPassWordView (0.1.4)
+  - CoreSupportKit/TXUseRuleView (0.1.4)
+  - CoreSupportKit/WSDaePickerView (0.1.4)
+  - CoreSupportKit/YBPopupMenu (0.1.4)
   - LBXScan (2.3):
     - LBXScan/All (= 2.3)
   - LBXScan/All (2.3):
@@ -38,10 +40,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CoreSupportKit: 67cf3a4c821c95d44502ef328b4c60489744227a
+  CoreSupportKit: a75ecde9435d3d88b57b94ded968a155ccd595cb
   LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
 PODFILE CHECKSUM: 343d97b4f3a1af7b303829a2179d6feac809d5fb
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.6.1

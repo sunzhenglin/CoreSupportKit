@@ -16,4 +16,5 @@
 #import "YBPopupMenu.h"
 #import "TXImageCompressor.h"
 #import "JJImagePicker.h"
+#import "MyUICreate.h"
 #endif /* CoreUIKitConfig_h */
