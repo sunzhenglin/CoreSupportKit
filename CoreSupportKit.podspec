@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreSupportKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of CoreSupportKit.'
 
 # This description is used to generate tags and improve search results.
@@ -72,12 +72,12 @@ TODO: Add long description of the pod here.
      ss.source_files = 'CoreSupportKit/Classes/TXUseRuleView/**/*.{h,m}'
      
    end
-   s.subspec 'WSDaePickerView' do |ss|
+   s.subspec 'WSDatePickerView' do |ss|
      # '时间选择器'
-     ss.public_header_files = 'CoreSupportKit/Classes/WSDaePickerView/**/*.h'
-     ss.source_files = 'CoreSupportKit/Classes/WSDaePickerView/**/*.{h,m}'
+     ss.public_header_files = 'CoreSupportKit/Classes/WSDatePickerView/**/*.h'
+     ss.source_files = 'CoreSupportKit/Classes/WSDatePickerView/**/*.{h,m}'
         ss.resource_bundles = {
-          'WSDaePickerView' => ['CoreSupportKit/Classes/WSDaePickerView/**/*.{png,xib}']
+          'WSDatePickerView' => ['CoreSupportKit/Classes/WSDatePickerView/**/*.{png,xib}']
         }
    end
 

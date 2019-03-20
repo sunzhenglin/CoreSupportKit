@@ -1,24 +1,24 @@
 PODS:
-  - CoreSupportKit (0.1.4):
-    - CoreSupportKit/CWCarousel (= 0.1.4)
-    - CoreSupportKit/JJImagePicker (= 0.1.4)
-    - CoreSupportKit/LBXScan (= 0.1.4)
-    - CoreSupportKit/MyUICreate (= 0.1.4)
-    - CoreSupportKit/TXImageCompressor (= 0.1.4)
-    - CoreSupportKit/TXPassWordView (= 0.1.4)
-    - CoreSupportKit/TXUseRuleView (= 0.1.4)
-    - CoreSupportKit/WSDaePickerView (= 0.1.4)
-    - CoreSupportKit/YBPopupMenu (= 0.1.4)
-  - CoreSupportKit/CWCarousel (0.1.4)
-  - CoreSupportKit/JJImagePicker (0.1.4)
-  - CoreSupportKit/LBXScan (0.1.4):
+  - CoreSupportKit (0.1.6):
+    - CoreSupportKit/CWCarousel (= 0.1.6)
+    - CoreSupportKit/JJImagePicker (= 0.1.6)
+    - CoreSupportKit/LBXScan (= 0.1.6)
+    - CoreSupportKit/MyUICreate (= 0.1.6)
+    - CoreSupportKit/TXImageCompressor (= 0.1.6)
+    - CoreSupportKit/TXPassWordView (= 0.1.6)
+    - CoreSupportKit/TXUseRuleView (= 0.1.6)
+    - CoreSupportKit/WSDatePickerView (= 0.1.6)
+    - CoreSupportKit/YBPopupMenu (= 0.1.6)
+  - CoreSupportKit/CWCarousel (0.1.6)
+  - CoreSupportKit/JJImagePicker (0.1.6)
+  - CoreSupportKit/LBXScan (0.1.6):
     - LBXScan (~> 2.3)
-  - CoreSupportKit/MyUICreate (0.1.4)
-  - CoreSupportKit/TXImageCompressor (0.1.4)
-  - CoreSupportKit/TXPassWordView (0.1.4)
-  - CoreSupportKit/TXUseRuleView (0.1.4)
-  - CoreSupportKit/WSDaePickerView (0.1.4)
-  - CoreSupportKit/YBPopupMenu (0.1.4)
+  - CoreSupportKit/MyUICreate (0.1.6)
+  - CoreSupportKit/TXImageCompressor (0.1.6)
+  - CoreSupportKit/TXPassWordView (0.1.6)
+  - CoreSupportKit/TXUseRuleView (0.1.6)
+  - CoreSupportKit/WSDatePickerView (0.1.6)
+  - CoreSupportKit/YBPopupMenu (0.1.6)
   - LBXScan (2.3):
     - LBXScan/All (= 2.3)
   - LBXScan/All (2.3):
@@ -40,7 +40,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CoreSupportKit: a75ecde9435d3d88b57b94ded968a155ccd595cb
+  CoreSupportKit: 612b558434d800cb5a4ded73da0f85c6bde61c3d
   LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 

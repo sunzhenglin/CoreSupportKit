@@ -1,6 +1,6 @@
 {
   "name": "CoreSupportKit",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "summary": "A short description of CoreSupportKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sunzhenglin/CoreSupportKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sunzhenglin/CoreSupportKit.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -60,12 +60,12 @@
       "source_files": "CoreSupportKit/Classes/TXUseRuleView/**/*.{h,m}"
     },
     {
-      "name": "WSDaePickerView",
-      "public_header_files": "CoreSupportKit/Classes/WSDaePickerView/**/*.h",
-      "source_files": "CoreSupportKit/Classes/WSDaePickerView/**/*.{h,m}",
+      "name": "WSDatePickerView",
+      "public_header_files": "CoreSupportKit/Classes/WSDatePickerView/**/*.h",
+      "source_files": "CoreSupportKit/Classes/WSDatePickerView/**/*.{h,m}",
       "resource_bundles": {
-        "WSDaePickerView": [
-          "CoreSupportKit/Classes/WSDaePickerView/**/*.{png,xib}"
+        "WSDatePickerView": [
+          "CoreSupportKit/Classes/WSDatePickerView/**/*.{png,xib}"
         ]
       }
     },

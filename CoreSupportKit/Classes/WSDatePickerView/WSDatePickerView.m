@@ -69,9 +69,9 @@ typedef void(^doneBlock)(NSDate *);
  */
 -(instancetype)initWithDateStyle:(WSDateStyle)datePickerStyle CompleteBlock:(void(^)(NSDate *))completeBlock {
     if (self = [super init]) {
-        NSBundle *bundle =[NSBundle bundleForClass:self.class];
-        NSString *path =[bundle pathForResource:CoreSupportKit ofType:@"bundle"];
-         NSBundle *xibBundle =path?[NSBundle bundleWithPath:path]:[NSBundle mainBundle];
+        NSBundle *bundle =[NSBundle bundleForClass: [WSDatePickerView class]];
+        NSString *path =[bundle pathForResource:@"WSDatePickerView" ofType:@"bundle"];
+        NSBundle *xibBundle =path?[NSBundle bundleWithPath:path]:[NSBundle mainBundle];
       
         
         self = [xibBundle loadNibNamed:@"WSDatePickerView" owner:self options:nil].lastObject;
@@ -131,7 +131,7 @@ typedef void(^doneBlock)(NSDate *);
     if (self = [super init]) {
         
         NSBundle *bundle =[NSBundle bundleForClass:self.class];
-        NSString *path =[bundle pathForResource:CoreSupportKit ofType:@"bundle"];
+        NSString *path =[bundle pathForResource:@"WSDatePickerView" ofType:@"bundle"];
         NSBundle *xibBundle =path?[NSBundle bundleWithPath:path]:[NSBundle mainBundle];
         
         self = [xibBundle loadNibNamed:@"WSDatePickerView" owner:self options:nil].lastObject;
