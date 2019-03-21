@@ -94,11 +94,19 @@ TODO: Add long description of the pod here.
      
    end
    
-   
+   s.subspec 'LPDImagePickerController' do |ss|
+     # '仿微信+菜单'
+     ss.public_header_files = 'CoreSupportKit/Classes/LPDImagePickerController/**/*.h'
+     ss.source_files = 'CoreSupportKit/Classes/LPDImagePickerController/**/*.{h,m}'
+     ss.resource_bundles = {
+       'LPDImagePickerController' => ['CoreSupportKit/Classes/LPDImagePickerController/**/*.{png,xib,strings}']
+     }
+      ss.dependency 'SDWebImage' 
+   end
    
   
    
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end

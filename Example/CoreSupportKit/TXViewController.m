@@ -9,8 +9,9 @@
 #import "TXViewController.h"
 #import "WSDatePickerView.h"
 #import "NSDate+Extension.h"
+#import "LPDQuoteImagesView.h"
 @interface TXViewController ()
-
+@property (strong,nonatomic)LPDQuoteImagesView *quoteImagesView;
 @end
 
 @implementation TXViewController
@@ -26,6 +27,12 @@
     [btn setTitle:@"点击" forState:(UIControlStateNormal)];
     [btn setTitleColor:[UIColor blueColor] forState:(UIControlStateNormal)];
     [btn addTarget:self action:@selector(selectAction:) forControlEvents:(UIControlEventTouchUpInside)];
+    self.quoteImagesView =[[LPDQuoteImagesView alloc] initWithFrame:CGRectMake(10, 80, 280, 200) withCountPerRowInView:3 cellMargin:15];
+    
+    self.quoteImagesView.maxSelectedCount = 3;
+    self.quoteImagesView.collectionView.scrollEnabled = NO;
+    self.quoteImagesView.navcDelegate = self;
+    [self.view addSubview:self.quoteImagesView];
 }
 
 - (void)selectAction:(UIButton *)sender{

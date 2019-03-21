@@ -78,6 +78,21 @@
       "name": "MyUICreate",
       "public_header_files": "CoreSupportKit/Classes/MyUICreate/**/*.h",
       "source_files": "CoreSupportKit/Classes/MyUICreate/**/*.{h,m}"
+    },
+    {
+      "name": "LPDImagePickerController",
+      "public_header_files": "CoreSupportKit/Classes/LPDImagePickerController/**/*.h",
+      "source_files": "CoreSupportKit/Classes/LPDImagePickerController/**/*.{h,m}",
+      "resource_bundles": {
+        "LPDImagePickerController": [
+          "CoreSupportKit/Classes/LPDImagePickerController/**/*.{png,xib,strings}"
+        ]
+      },
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
     }
   ]
 }

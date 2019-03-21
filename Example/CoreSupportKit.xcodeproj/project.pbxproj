@@ -308,6 +308,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-CoreSupportKit_Example/Pods-CoreSupportKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CoreSupportKit/CoreSupportKit.framework",
 				"${BUILT_PRODUCTS_DIR}/LBXScan/LBXScan.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/ZBarSDK/ZBarSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -316,6 +317,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreSupportKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBXScan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBarSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
