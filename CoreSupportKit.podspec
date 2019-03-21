@@ -52,7 +52,7 @@ TODO: Add long description of the pod here.
      # '二维码'
      ss.public_header_files = 'CoreSupportKit/Classes/LBXScan/**/*.h'
      ss.source_files = 'CoreSupportKit/Classes/LBXScan/**/*.{h,m}'
-     ss.dependency 'LBXScan', '~> 2.3'
+     ss.dependency 'LBXScan' 
    end
    s.subspec 'TXImageCompressor' do |ss|
      # '图片压缩'

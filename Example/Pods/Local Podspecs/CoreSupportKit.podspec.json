@@ -40,7 +40,7 @@
       "source_files": "CoreSupportKit/Classes/LBXScan/**/*.{h,m}",
       "dependencies": {
         "LBXScan": [
-          "~> 2.3"
+
         ]
       }
     },
